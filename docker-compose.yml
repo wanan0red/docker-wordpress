@@ -1,0 +1,38 @@
+version: "2"
+networks:
+  game_outnet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 192.168.5.0/24
+        gateway: 192.168.5.1
+  game_innet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.66.0/24
+          gateway: 192.168.66.1
+services:
+  outweb:
+    container_name: outweb
+    ports:
+      - "800:80"
+      - "222:22"
+    build:
+      context: .
+      dockerfile: outweb/Dockerfile
+    networks:
+      game_outnet:
+         ipv4_address: 192.168.5.5
+      game_innet:
+         ipv4_address: 192.168.66.66
+  inweb:
+    container_name: inweb
+    build:
+      context: .
+      dockerfile: inweb/Dockerfile
+    networks:
+      game_innet:
+         ipv4_address: 192.168.66.22

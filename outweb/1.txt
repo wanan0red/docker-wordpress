@@ -1,0 +1,999 @@
+    1  rm cloud.jar 
+    2  rm exchange
+    3  rm exchange.jar 
+    4  wget http://172.16.80.248/target/cloud.jar 
+    5  wget http://172.16.80.248/target/exchange.jar
+    6  nohup  java  -jar  /web/app/cloud.jar  >/dev/null 2>&1 &
+    7  nohup  java  -jar  /web/app/exchange.jar  
+    8  java  -jar  /web/app/exchange.jar  
+    9  rm exchange.jar 
+   10  wget http://172.16.80.248/target/exchange.jar
+   11  java -jar exchange.jar 
+   12  rm exchange.jar 
+   13  wget http://172.16.80.248/target/exchange.jar
+   14  java -jar exchange.jar 
+   15  nohup  java  -jar  /web/app/exchange.jar  >/dev/null 2>&1 &
+   16  wget http://172.16.80.248/target/marker.jar
+   17  rm market.jar 
+   18  wget http://172.16.80.248/target/market.jar
+   19  java -jar market.jar 
+   20  clear
+   21  java -jar market.jar 
+   22  netstat -anop |java
+   23  netstat -anop |grep java
+   24  netstat -anop |java
+   25  rm market.jar 
+   26  wget http://172.16.80.248/target/market.jar
+   27  java -jar market.jar 
+   28  rm market.jar 
+   29  wget http://172.16.80.248/target/market.jar
+   30  java -jar market.jar 
+   31  rm market.jar 
+   32  wget http://172.16.80.248/target/market.jar
+   33  java -jar market.jar 
+   34  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+   35  ps -aux
+   36  netstat -anop | grep java
+   37  wget http://172.16.80.248/target/admin-api.jar
+   38  java -jar admin-api.jar
+   39  ls -all
+   40  rm admin-api.jar
+   41  wget http://172.16.80.248/target/admin-api.jar
+   42  java -jar admin-api.jar
+   43  nohup  java  -jar  /web/app/admin.jar  >/dev/null 2>&1 &
+   44  ps -aux
+   45  nohup  java  -jar  /web/app/admin-api.ja
+   46  ps -aux
+   47  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+   48  ps -aux
+   49  wget http://172.16.80.248/target/web.tar
+   50  tar –xvf web.tar 
+   51  tar –xvf 
+   52  tar 
+   53  tar --help
+   54  tar -xvf web.tar 
+   55  ls
+   56  cd web
+   57  ls
+   58  npm install
+   59  npm
+   60  curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
+   61  yum install -y nodejs
+   62  npm install -g cnpm --registry=https://registry.npm.taobao.org
+   63  npm install
+   64  npm run dev
+   65  npm install
+   66  npm run dev
+   67  ls
+   68  grep -lr 'routes.js' /web/app/web
+   69  vi src/main.js 
+   70  vim src/main.js 
+   71  vi src/main.js 
+   72  npm run dev
+   73  vi src/main.js 
+   74  npm run dev
+   75  ls
+   76  cd src/
+   77  ls
+   78  cd pages/
+   79  ls
+   80  cd uc
+   81  ls
+   82  mv FindPwd.vue findpwd.vue
+   83  mv IdentBusiness.vue identbusiness.vue
+   84  ls
+   85  mv Login.vue login.vue
+   86  mv MemberCenter.vue  membercenter.vue
+   87  ls
+   88  mv Register.vue  register.vue
+   89  cd ..
+   90  ls
+   91  npm run dev
+   92  cd src/
+   93  ls
+   94  cd pages/
+   95  ls
+   96  cd us
+   97  cd uc
+   98  mv IdentBusiness.vue  identbusiness.vue
+   99  mv MemberCenter membercenter.vue
+  100  mv IdentBusiness.vue  identbusiness.vue
+  101  mv MemberCentervue membercenter.vue
+  102  ls
+  103  cd ..
+  104  cd..
+  105  cd ..
+  106  rpm install
+  107  npm run dev
+  108  cd src/
+  109  cd pages/uc/
+  110  mv identbusiness.vue IdentBusiness.vue
+  111  mv membercenter.vue MemberCenter.vue
+  112  cd ..
+  113  cd exchange/
+  114  ls
+  115  mv Exchange.vue exchange.vue
+  116  cx ..
+  117  cd ..
+  118  npm run dev
+  119  npm run build
+  120  npm run build --report
+  121  npm run unit
+  122  npm run e2e
+  123  npm test
+  124  npm run dev
+  125  npm run build
+  126  npm run build --report
+  127  npm run dev
+  128  cd src/
+  129  vi main.js 
+  130  npm run dev
+  131  vi main.js 
+  132  npm run dev
+  133  npm run build --report
+  134  ls
+  135  cd ..
+  136  cd build/
+  137  ls
+  138  vi build.js 
+  139  vi webpack.dev.conf.js 
+  140  cd ..
+  141  npm run dev
+  142  cd ..
+  143  ls
+  144  wget http://172.16.80.248/target/ucenter-api.jar
+  145  java -jar ucenter-api.jar 
+  146  ls
+  147  cd web
+  148  ls
+  149  npm run dev
+  150  cd ..
+  151  java -jir ucenter-api.jar 
+  152  java -jar ucenter-api.jar 
+  153  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  154  ps -aux
+  155  netstat -anop 
+  156  cd web
+  157  npm run dev
+  158  vi config/index.js 
+  159  npm run dev
+  160  vi config/index.js 
+  161  npm run dev
+  162  vi src/pages/uc/login.vue 
+  163  npm run dev
+  164  vi src/pages/uc/login.vue 
+  165  npm run dev
+  166  vi src/pages/uc/login.vue 
+  167  npm run dev
+  168  vi src/pages/uc/login.vue 
+  169  npm run dev
+  170  vi src/pages/uc/login.vue 
+  171  npm run dev
+  172  vi src/pages/uc/login.vue 
+  173  npm run dev
+  174  cd ..
+  175  ls
+  176  wget http://172.16.80.248/target/admin.tar
+  177  tar -lvf admin.tar 
+  178  tar -xvf admin.tar 
+  179  ls
+  180  cd /admin
+  181  cd admin
+  182  ls
+  183  npm install
+  184  npm run dev
+  185  ls
+  186  npm install
+  187  cd ..
+  188  cd web
+  189  npm install
+  190  cd ..
+  191  cd admin
+  192  npm run build
+  193  npm run build --report
+  194  cd build/
+  195  cd ..
+  196  vi build/webpack.dev.config.js 
+  197  npm run dev
+  198  vi src/service/http.js 
+  199  npm run dev
+  200  cd ..
+  201  cd web
+  202  dev run dev &
+  203  ps -aux 
+  204  nohup dev run dev &
+  205  nohup npm run dev >/dev/null 2>&1 &
+  206  cd ..
+  207  cd admin
+  208  nohup npm run dev >/dev/null 2>&1 &
+  209  cd ..
+  210  ls
+  211  ps -aux
+  212  ps -aux | grep mark
+  213  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+  214  ps -aux | grep 3000
+  215  ps -aux 
+  216  kill -9 119978
+  217  kill -9 11978
+  218  vi web/src/pages/uc/register.vue 
+  219  ls
+  220  cd web
+  221  npm run dev
+  222  ls
+  223  cd ..
+  224  cd admin
+  225  ps -aux
+  226  kill -9 12034
+  227  vi src/router/router.js 
+  228  mv src/views/member/memberManage.vue MemberManage.vue
+  229  npm run dev
+  230  mv src/views/member/memberManage.vue MemberManage.vue
+  231  cd src/vendors/
+  232  cd ..
+  233  cd views/
+  234  ls
+  235  cd member/
+  236  ls
+  237  cd ..
+  238  cd src/
+  239  cd views/
+  240  ls
+  241  cd member/
+  242  ls
+  243  ls -all
+  244  wget http://172.16.80.248/vue/MemberManage.vue
+  245  ls
+  246  cd /web/app/admin/
+  247  npm run dev
+  248  nohup npm run dev >/dev/null 2>&1 &
+  249  cd ..4
+  250  cd ..
+  251  ls
+  252  cd web
+  253  ls
+  254  ps -aux | grep web
+  255  vi src/
+  256  cd src/
+  257  ls
+  258  vi main.js 
+  259  cd pages/ur
+  260  cd pages/uc
+  261  ls
+  262  vi register.vue 
+  263  /web/app/web/
+  264  /web/app/web/ npm run dev
+  265  cd /web/app/web/
+  266  npm run dev
+  267  ps -aux
+  268  cd ..
+  269  ls
+  270  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+  271  cd web
+  272  ls
+  273  vi src/pages/uc/register.vue 
+  274  ls
+  275  npm run dev
+  276  cd /web/app/
+  277  ls
+  278  rm ucenter-api.jar 
+  279  wget http://192.168.157.1/target/ucenter-api.jar
+  280  ps -aux | grep ucent
+  281  java -jar ucenter-api.jar 
+  282  ps -aux
+  283  ps -aux |grep java
+  284  java -jar ucenter-api.jar 
+  285  rm ucenter-api.jar 
+  286  wget http://192.168.157.1/target/ucenter-api.jar
+  287  java -jar ucenter-api.jar 
+  288  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  289  cd ..
+  290  cd app/
+  291  cd admin
+  292  ls
+  293  cd src/
+  294  ls
+  295  cd ..
+  296  cd web
+  297  cd src/pages/uc/
+  298  ls
+  299  cd /web/app/web/src/pages/uc/
+  300  rm register.vue
+  301  cd /web/app/web/
+  302  npm run dev
+  303  cd /web/app/web/src/pages/uc/
+  304  rm register.vue y
+  305  cd /web/app/web/src/pages/uc/
+  306  rm -f register.vue 
+  307  cd /web/app/web/src/pages/uc/
+  308  rm -f register.vue 
+  309  wget http://192.168.157.1/vue/register.vue
+  310  cd /web/app/web/
+  311  npm run dev
+  312  vi src/pages/uc/register.vue 
+  313  cd /web/app
+  314  rm -f ucenter-api.jar
+  315  wget  http://192.168.157.1/target/ucenter-api.jar
+  316  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  317  ps -aux
+  318  kill -915340
+  319  kill -9 15340
+  320  ps -aux
+  321  kill -9 $(pidof ucenter-api.jar)
+  322  cd /web/app
+  323  rm -f ucenter-api.jar
+  324  wget  http://192.168.157.1/target/ucenter-api.jar
+  325  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  326  ps -aux
+  327  kill -9 $(pidof ucenter-api.jar)
+  328  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  329  ps -aux
+  330  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  331  cd /web/app
+  332  rm -f ucenter-api.jar
+  333  wget  http://192.168.157.1/target/ucenter-api.jar
+  334  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  335  ps -aux
+  336  cd /web/app/web/src/pages/uc/
+  337  rm -f register.vue 
+  338  wget http://192.168.157.1/vue/register.vue
+  339  cd /web/app/web/
+  340  npm run dev
+  341  cd ..
+  342  cd admin
+  343  cd /web/app/admin
+  344  nohup  npm run dev  >/dev/null 2>&1 &
+  345  ps -aux
+  346  cd /web/app/web 
+  347  nohup  npm run dev  >/dev/null 2>&1 &
+  348  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  349  cd /web/app
+  350  rm -f admin-api.jar
+  351  wget  http://192.168.157.1/target/admin-api.jar
+  352  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  353  ps -aux
+  354  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  355  cd /web/app
+  356  rm -f admin-api.jar
+  357  wget  http://192.168.157.1/target/admin-api.jar
+  358  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  359  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  360  cd /web/app
+  361  rm -f admin-api.jar
+  362  wget  http://192.168.157.1/target/admin-api.jar
+  363  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  364  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  365  cd /web/app
+  366  rm -f admin-api.jar
+  367  wget  http://192.168.157.1/target/admin-api.jar
+  368  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  369  wget http://192.168.157.1/target/otc-api.jar
+  370  java -jar otc-api.jar 
+  371  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  372  cd /web/app
+  373  rm -f admin-api.jar
+  374  wget  http://192.168.157.1/target/admin-api.jar
+  375  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  376  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  377  cd /web/app
+  378  rm -f admin-api.jar
+  379  wget  http://192.168.157.1/target/admin-api.jar
+  380  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  381  kill -9 $(ps -ef|grep admin-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  382  cd /web/app
+  383  rm -f admin-api.jar
+  384  wget  http://192.168.157.1/target/admin-api.jar
+  385  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  386  cd /web/app
+  387  rm -f admin-api.jar
+  388  wget  http://192.168.157.1/target/admin-api.jar
+  389  java  -jar  /web/app/admin-api.jar  
+  390  ps -aux  |grep mon
+  391  wget  http://192.168.157.1/target/admin-api.jar
+  392  java  -jar  /web/app/admin-api.jar  
+  393  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  394  cd /web
+  395  cd app/
+  396  cd web
+  397  cd src/assets/js/charting_library/
+  398  ls
+  399  cd static/
+  400  ls
+  401  cd js
+  402  ls
+  403  cd 
+  404  cd /web/app/web/src/assets/js/charting_library/static/
+  405  cd js/
+  406  ls
+  407  cd ..
+  408  wget http://192.168.157.1/target/js.7z
+  409  tar zvf js.7z 
+  410  tar xvf js.7z 
+  411  rm js.7z 
+  412  wget http://192.168.157.1/target/js.tar
+  413  rm js.tar 
+  414  tar xvf js.tar
+  415  ls
+  416  rm -f js.tar 
+  417  cd js
+  418  wget http://192.168.157.1/target/js.tar
+  419  tar xvf js.tar
+  420  cd ..
+  421  cd..
+  422  cd ..
+  423  npm run dev
+  424  ps -aux
+  425  kill -9 15663
+  426  npm run dev
+  427  cd /web/
+  428  ls
+  429  cd app
+  430  cd web
+  431  ls
+  432  rm index.html 
+  433  wget http://192.168.157.1/target/index.html
+  434  cd ..
+  435  cd web
+  436  npm run dev
+  437  ls
+  438  rm index.html 
+  439  wget http://192.168.157.1/target/index.html
+  440  rm index.html 
+  441  vi index.html 
+  442  npm run dev
+  443  rm index.html 
+  444  wget http://192.168.157.1/target/index.html
+  445  npm run dev
+  446  cd src/assets/css/
+  447  ls
+  448  cp /web/app/web/src/assets/js/charting_library/static/iview.css iview.css
+  449  ls
+  450  cd ..
+  451  npm run dev
+  452  cd src/assets/js/
+  453  ls 
+  454  wget http://192.168.157.1/target/js.tar
+  455  tar xvf js.tar 
+  456  ls
+  457  cd ..
+  458  rpm run dev
+  459  npm run dev
+  460  ls
+  461  cd src/assets/js/
+  462  ls
+  463  cd ..
+  464  ls
+  465  rm index.html 
+  466  wget http://192.168.157.1/target/index.html
+  467  npm run dev
+  468  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  469  cd /web/app
+  470  rm -f ucenter-api.jar
+  471  wget  http://192.168.157.1/target/ucenter-api.jar
+  472  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  473  nohup npm run dev >/dev/null 2>&1 &
+  474  ps -aux
+  475  nohup npm run dev >/dev/null 2>&1 &
+  476  ps -anux
+  477  ps -aux
+  478  cd /web/app/web 
+  479  nohup  npm run dev  >/dev/null 2>&1 &
+  480  ps -aux
+  481  ls
+  482  cd ..
+  483  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  484  ps -aux
+  485  ps aux
+  486  ls
+  487    kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  488  cd /web/app
+  489  rm -f ucenter-api.jar
+  490  wget  http://192.168.157.1/target/ucenter-api.jar
+  491  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  492  ps -aux
+  493  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  494  cd /web/app
+  495  rm -f ucenter-api.jar
+  496  wget  http://192.168.157.1/target/ucenter-api.jar
+  497  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  498  cd /web/app
+  499  rm -f ucenter-api.jar
+  500  wget  http://192.168.157.1/target/ucenter-api.jar
+  501  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  502  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  503  cd /web/app
+  504  rm -f ucenter-api.jar
+  505  wget  http://192.168.157.1/target/ucenter-api.jar
+  506  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  507  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  508  cd /web/app
+  509  rm -f ucenter-api.jar
+  510  wget  http://192.168.157.1/target/ucenter-api.jar
+  511  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  512  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  513  cd /web/app
+  514  rm -f ucenter-api.jar
+  515  wget  http://192.168.157.1/target/ucenter-api.jar
+  516  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  517  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  518  cd /web/app
+  519  rm -f ucenter-api.jar
+  520  wget  http://192.168.157.1/target/ucenter-api.jar
+  521  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  522  ps -aux
+  523  kill -9 $(ps -ef|grep ucenter-api.jar|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')
+  524  cd /web/app
+  525  rm -f ucenter-api.jar
+  526  wget  http://192.168.157.1/target/ucenter-api.jar
+  527  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  528  ip addr
+  529  ls
+  530  cd /web/app/
+  531  ls
+  532  cd jdk1.8.0_181/
+  533  ls
+  534  cd /web/app/jdk1.8.0_181/
+  535  cd bin/
+  536  java -version
+  537  ls
+  538  ./java -version
+  539  java
+  540  ./java
+  541  cd ..
+  542  ip addr
+  543  ip add
+  544  netstat -ano
+  545  netstat -anop
+  546  ls
+  547  ip add
+  548  ip addr
+  549  tcping
+  550  telnet
+  551  netstat -anop | grep 3000
+  552  systemctl stop firewalld
+  553  netstat -anop | grep 8888
+  554  wget http://127.0.0.1:8888
+  555  ls
+  556  vi index.html 
+  557  cd /web/app/
+  558  ls
+  559  cd web
+  560  ls
+  561  cd config/
+  562  ls
+  563  vi index.js 
+  564  cd ..
+  565  systemctl disable firewalld
+  566  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+  567  ip add
+  568  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+  569  systemctl restart network
+  570  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+  571  systemctl restart network
+  572  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+  573  systemctl restart network
+  574  ip addr
+  575  ping 114.114.114.114
+  576  service network start
+  577  telnet 127.0.0.1 3000
+  578  service stop firewall
+  579  service stop firewalld
+  580  service  firewalld strop
+  581  service firewall stop
+  582  A protocol error occurred. Change of username or service not allowed: (192.168.60.133,ssh-connection) -> (root,ssh-connection
+  583  cd /web/app/admin
+  584  nohup  npm run dev  >/dev/null 2>&1 &
+  585  cd /web/app/web 
+  586  nohup  npm run dev  >/dev/null 2>&1 &
+  587  cd /web/app
+  588  nohup  java  -jar  /web/app/cloud.jar  >/dev/null 2>&1 &
+  589  cd /web/app
+  590  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+  591  ps -aiux
+  592  ps -aux
+  593  cd /web/app
+  594  nohup  java  -jar  /web/app/exchange.jar  >/dev/null 2>&1 &
+  595  cd /web/app
+  596  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  597  cd /web/app
+  598  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  599  netstat -anop | grep 3000
+  600  netstat -anop | grep 9090
+  601  systemctl stop firealld
+  602  ip addr
+  603  ping 114.114.114.114
+  604  netstat -anop | grep 9090
+  605  service network stop
+  606  cd /web/app
+  607  nohup  java  -jar  /web/app/cloud.jar  >/dev/null 2>&1 &
+  608  cd /web/app
+  609  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+  610  ping 192.168.60.128
+  611  cd /web/app
+  612  nohup  java  -jar  /web/app/exchange.jar  >/dev/null 2>&1 &
+  613  cd /web/app
+  614  nohup  java  -jar  /web/app/exchange.jar  >/dev/null 2>&1 &
+  615  cd /web/app
+  616  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  617  cd /web/app
+  618  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  619  ps -aux
+  620  kill -9 1539
+  621  ps -uax
+  622  ps -aux
+  623  cd /web/app/admin
+  624  nohup  npm run dev  >/dev/null 2>&1 &
+  625  cd /web/app/web 
+  626  nohup  npm run dev  >/dev/null 2>&1 &
+  627  ps -aux
+  628  cd /web/app/admin
+  629  nohup  npm run dev  >/dev/null 2>&1 &
+  630  ps -aux
+  631  nohup  npm run dev  >/dev/null 2>&1 &
+  632  ps -aux
+  633  nohup  npm run dev  >/dev/null 2>&1 &
+  634  ps -aux
+  635  npm run dev
+  636  ps -aux
+  637  npm run dev
+  638  ps -aux
+  639  npm run dev
+  640  ls 
+  641  npm install
+  642  npm run dev
+  643  netstat -anop 
+  644  netstat -anop |grep 9090
+  645  npm run dev
+  646  ls
+  647  cd src/
+  648  ls
+  649  cd smeditor/
+  650  ls
+  651  cd /web/app/admin
+  652  npm run dev
+  653  vi src/views/content/AddAnnouncement.vue 
+  654  mv src/smeditor/ SMeditor
+  655  cd src/
+  656  ls
+  657  cd ..
+  658  ls
+  659  mv SMeditor/ src/SMeditor
+  660  cd src/
+  661  ls
+  662  cd SMeditor/
+  663  ls
+  664  cd
+  665  cd /web/app/admin
+  666  ls
+  667  ps -aux
+  668  npm run dev
+  669   ls
+  670  cd ..
+  671  ls
+  672  cd admin
+  673  ls
+  674  cd src/
+  675  ls
+  676  mv SMeditor/  SMEditor
+  677  cd
+  678  cd /web/app/admin
+  679  npm run dev
+  680  mv src/views/content/HelpManage.vue  src/views/content/helpManage.vue
+  681  ls src/views/content/
+  682  cd src/views/otc/
+  683  mv adManage.vue  AdManage.vue
+  684  ls
+  685  mv coinManage.vue CoinManage.vue
+  686  mv orderManage.vue  OrderManage.vue
+  687  cd ..
+  688  npm run dev
+  689  nohup  npm run dev  >/dev/null 2>&1 &
+  690  ps -aux
+  691  npm run dev  
+  692  systemctl stop firewalld
+  693  ps -aux
+  694  kill -9 4152
+  695  ps -aux
+  696  cd /web/app/
+  697  ls
+  698  vi hs_err_pid1541.log 
+  699  ps -aux
+  700  free -m
+  701  cd /web/app/web 
+  702  nohup  npm run dev  >/dev/null 2>&1 &
+  703  ps -aux
+  704  cd /web/app/
+  705  ls
+  706  ps -aux
+  707  clear
+  708  vi /var/log/messages
+  709  cd web
+  710  npm run dev
+  711  netstat -anop | grep 3001
+  712  netstat -anop | grep 3002
+  713  netstat -anop | grep 3000
+  714  kill -9 3000
+  715  ps -aux
+  716  kill -9 4034
+  717  kill -9 1778
+  718  rpm run dev
+  719  npm run dev
+  720  ps -aux | grep java
+  721  cd ..
+  722  ip add
+  723  cd /web/app
+  724  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  725  ps -aux
+  726  cd /web/app/web 
+  727  nohup  npm run dev  >/dev/null 2>&1 &
+  728  ps -aux
+  729  free -m
+  730  ps -aux
+  731  cd ..
+  732  java -jar otc-api.jar 
+  733  ps -aux
+  734  ps -aux | grep core
+  735  ps -aux | grep cold
+  736  ps -aux | grep cloud
+  737  ps -aux | grep uc
+  738  ps
+  739  ps -aux
+  740  kill -9 -1279
+  741  kill -9 -1278
+  742  cd /web/app
+  743  nohup  java  -jar  /web/app/cloud.jar  >/dev/null 2>&1 &
+  744  cd /web/app
+  745  nohup  java  -jar  /web/app/cloud.jar  >/dev/null 2>&1 &
+  746  cd /web/app
+  747  nohup  java  -jar  /web/app/market.jar  >/dev/null 2>&1 &
+  748  cd /web/app
+  749  nohup  java  -jar  /web/app/exchange.jar  >/dev/null 2>&1 &
+  750  cd /web/app
+  751  nohup  java  -jar  /web/app/admin-api.jar  >/dev/null 2>&1 &
+  752  cd /web/app
+  753  nohup  java  -jar  /web/app/ucenter-api.jar  >/dev/null 2>&1 &
+  754  cd /web/app
+  755  nohup  java  -jar  /web/app/oc-api.jar  >/dev/null 2>&1 &
+  756  cd /web/app/admin
+  757  nohup  npm run dev  >/dev/null 2>&1 &
+  758  cd /web/app/web 
+  759  nohup  npm run dev  >/dev/null 2>&1 &
+  760  ps -aux
+  761  kill -9 10474
+  762  npm run dev
+  763  cd /web/app
+  764  chmod +x start_web.sh 
+  765  ./start_web.sh 
+  766  ls
+  767  ps -aux
+  768  java -jar market.jar 
+  769  ps -aux
+  770  kill -9 2057
+  771  ./start_web.sh 
+  772  ps -aux
+  773  kill -9 2303 
+  774  kill -9 2350
+  775  kill -9 2482
+  776  kill -9 2564
+  777  kill -9 2599
+  778  kill -9 2696
+  779  kill -9 2697
+  780  ps -aux
+  781  ls
+  782  ./start_web.sh 
+  783  ps -aux
+  784  netstat -ntlp
+  785  ps -aux
+  786  kill -9 2946
+  787  kill -9 2993
+  788  kill -9 3021
+  789  kill -9 3047
+  790  kill -9 3072
+  791  java -jar cloud.jar 
+  792  nohup java -jar cloud.jar &
+  793  java -jar market.jar 
+  794  ping 192.168.60.128
+  795  ping 192.168.60.133
+  796  java -jar market.jar 
+  797  ps -aux
+  798  telnet 
+  799  netstat -ntlp
+  800  ps -aux
+  801  kill -9 3137
+  802  kill -9 3138
+  803  kill -9 3327
+  804  ps -aux
+  805  ls -l
+  806  bash ./start_web.sh 
+  807  netstat -ntlp
+  808  ping www.baidu.com
+  809  last
+  810  cd /var/log/
+  811  ls
+  812  ip addr
+  813  ps -aux
+  814  cd /web/app/
+  815  ls
+  816  /web/app/admin/ ls
+  817  ps -aux
+  818  kill -9 1682
+  819  kill -9 1729
+  820  kill -9 1764
+  821  kill -9 1803
+  822  kill -9 1834
+  823  kill -9 1905
+  824  kill -9 1906
+  825  ps -aux
+  826  nohup java -jar /web/app/cloud.jar &
+  827  java -jar /web/app/market.jar
+  828  poweroff
+  829  cd ~
+  830  cd /web/
+  831  ls -l
+  832  cd app/
+  833  ll
+  834  ping 192.168.60.1
+  835  ifconfig
+  836  ll
+  837  bash start_web.sh 
+  838  netstat -ntlp
+  839  java -jar /web/app/market.jar
+  840  nohup  java -jar /web/app/market.jar &
+  841  nohup  java -jar /web/app/exchange.jar &
+  842  nohup  java -jar /web/app/admin-api.jar &
+  843  nohup  java -jar /web/app/ucenter-api.jar &
+  844  netstat -ntlp
+  845  nohup  java -jar /web/app/market.jar &
+  846  ps -aux
+  847  netstat -ntlp
+  848  kill -9 1535
+  849  ps -aux
+  850  kill -9 1563
+  851  kill -9 1875
+  852  kill -9 1824
+  853  kill -9 1940
+  854  ps -aux
+  855  kill -9 1962
+  856  kill -9 1487
+  857  bash start_web.sh 
+  858  ps -ano
+  859  ps -aux
+  860  kill -9 2477
+  861  kill -9 2554
+  862  kill -9 2668
+  863  kill -9 2827
+  864  ps -aux
+  865  nohup java -jar /web/app/cloud.jar &
+  866  java -jar /web/app/market.jar
+  867  ps -aux
+  868  kill -9 2937
+  869  bash start_web.sh 
+  870  ps -aux
+  871  kill -9 3110
+  872  kill -9 3278
+  873  kill -9 3304
+  874  ./start_web.sh 
+  875  ps -aux
+  876  java -jar market.jar 
+  877  ps -aux
+  878  kill -9 3579
+  879  kill -9 3751
+  880  kill -9 3799
+  881  kill -9 3957
+  882  ps -aux
+  883  ps -3458
+  884  kill -9 3458
+  885  ps -aux
+  886  ./start_web.sh 
+  887  netstat -anop
+  888  reboot
+  889  free -m
+  890  ps -aux
+  891  java -jar market.jar 
+  892  cd /web/app/
+  893  ls
+  894  ./start_web.sh 
+  895  ifconfig 
+  896  ls
+  897  ifconfig 
+  898  reboot
+  899  history 
+  900  last
+  901  cd /var/log/
+  902  ls
+  903  last
+  904  ls
+  905  vi /web/app/web/config/index.js 
+  906  ps -aux
+  907  netstat -anop 
+  908  netstat -anop  | 9090
+  909  netstat -anop  | grep 9090
+  910  netstat -anop  | grep 3000
+  911  cd /web/app/web
+  912  npm run dev
+  913  last
+  914  ipconfig
+  915  ifconfig
+  916  netstat -anpt
+  917  cd /web/app/
+  918  ls
+  919  cat start_web.sh cd /var/lo
+  920  cd /var/log/
+  921  ls
+  922  cd ..
+  923  ls
+  924  history 
+  925  history |grep wget
+  926  netstat -anpt
+  927  last
+  928  cd /web/app/
+  929  ls
+  930  ./start_web.sh 
+  931  netstat -anpt
+  932  cd /web/
+  933  ls
+  934  cd app/
+  935  ls
+  936  ./start_web.sh 
+  937  poweroff
+  938  cd /var/lo
+  939  cd /var/log/
+  940  ls
+  941  last
+  942  ls
+  943  cd /web/
+  944  cd app/
+  945  ls
+  946  sh start_web.sh 
+  947  netstat -lntp
+  948  cd /web/app/
+  949  sh start_web.sh 
+  950  netstat -lntp
+  951  cd /web/app/
+  952  ls
+  953  cd admin
+  954  ls
+  955  npm run dev
+  956  npm 
+  957  npm run dev
+  958  ls
+  959  cd ..
+  960  cd web
+  961  npm run dev
+  962  cd ..
+  963  ls
+  964  cd admin
+  965  npm run dev
+  966  npm run build
+  967  npm run dev
+  968  nohup npm run dev &
+  969  netstat -lntp
+  970  kill -9 2648
+  971  nohup npm run dev &
+  972  ls
+  973  netstat -lntp
+  974  reboot 
+  975  cd /web/app/
+  976  sh start_web.sh 
+  977  netstat -lnet
+  978  cd /web/app/
+  979  ls
+  980  rm -rf start_web.sh 
+  981  ps -aux
+  982  kill -9 1713
+  983  cd /web/app/web
+  984  npm run dev
+  985  ps -aux
+  986  npm run dev
+  987  npm run build
+  988  npm run dev
+  989  cd /web/app/admin
+  990  ps -aux
+  991  kill -9 3632
+  992  npm run dev
+  993  npm run bulid
+  994  cd ..
+  995  cd web
+  996  npm run dev
+  997  ls
+  998  history
+  999  history > 1.txt
